@@ -1,4 +1,12 @@
 const Produto = () => {
+    // Objeto com a lista de pizzas
+    const pizzas = [
+        'Pizza de muçarela',
+        'Pizza de Caabresa',
+        'Pizza de Baiana'
+     ]
+     //Interação da lista de pizzas
+     const listaPizzas = pizzas.map(pizza=><li>{pizza}</li>)
 
     return (
         <div>
